@@ -39,7 +39,7 @@ export default async function page() {
   const session = await getServerSession(options);
   return (
     <>
-        <main className="flex min-h-screen mx-auto ml-20">
+        <main className="flex min-h-screen mx-auto ml-10">
           <Sidebar  />
           <Feed />
           <Widgets
