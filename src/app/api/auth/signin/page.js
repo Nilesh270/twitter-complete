@@ -3,8 +3,7 @@ import { XIcon } from '@heroicons/react/solid';
 import { getProviders,signIn } from 'next-auth/react'
 import React from 'react'
 
-async function  page ()  {
-    const provider =  await getProviders();
+function  page ()  {
   return (
     <div className="flex justify-center mt-32 space-x-4">
       <img
